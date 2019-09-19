@@ -231,7 +231,8 @@ const actions = {
             })
             .catch(error => console.log(error))
 
-    //   тест изменений
+    //  тест изменений 3
+
 
     },
 
