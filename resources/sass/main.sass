@@ -1,0 +1,368 @@
+@import "_vars.sass"
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap.scss'
+
+
+
+body
+  font-family: "Roboto", sans-serif
+  //font-family: "", sans-serif
+  margin: 0
+  background-color: #fff
+
+
+
+
+
+				//  ВЫРАВНИВАНИЕ БЛОКОВ ПРИ ОИРЕНАЦИИ COLUMN
+
+
+.wrapper_center-center
+
+  	display: flex
+  	justify-content: center
+  	align-items: center
+  	align-content: center
+
+  	position: fixed
+  	top: 0
+  	left: 0
+
+
+  	width: 100%
+  	height: 100%
+
+  	overflow: auto
+
+
+.wrapper_lef-top
+
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+
+
+.wrapper_column-x-lef-y-top
+
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+
+
+.wrapper_right-top
+
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+
+
+.wrapper_center-top
+
+  	display: flex
+  	flex-direction: column
+  	align-items: center
+
+
+
+
+.wrap_x-center-y-top
+
+  	display: flex
+  	flex-direction: column
+  	align-items: center
+
+.wrapper_column-x-center-y-top
+
+  	display: flex
+  	flex-direction: column
+  	align-items: center
+
+
+
+
+.wrapper_self-left
+
+	width: 100%
+	display: flex
+	justify-content: flex-start
+
+
+.wrapper_self-right
+
+	width: 100%
+	display: flex
+	justify-content: flex-end
+
+
+.wrapper_self-center
+
+	width: 100%
+	display: flex
+	justify-content: center
+
+
+
+				//  ВЫРАВНИВАНИЕ БЛОКОВ ПРИ ОИРЕНАЦИИ ROW
+
+
+
+.wrapper_row-left
+
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+
+.wrapper_row-x-left
+
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+
+
+
+.wrapper_row-right
+
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+
+
+.wrapper_row-x-right
+
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+
+
+
+.wrapper_row-center
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+
+.wrapper_row-x-center
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+
+//   ВЫРАВНИВАНИЕ ЭЛЕМЕНТА ВНУТРИ БЛОКА
+//   ПО ВЕРТИКАЛИ: ЦЕНТР
+//   ПО ГОРИЗОНТАЛИ: СЛЕВА
+
+
+.wrapper_row-x-left-y-center
+
+    display: flex
+    flex-direction: row
+    align-items: center
+
+
+//   ВЫРАВНИВАНИЕ ЭЛЕМЕНТА ВНУТРИ БЛОКА
+//   ПО ВЕРТИКАЛИ: ЦЕНТР
+//   ПО ГОРИЗОНТАЛИ: ЦЕНТР
+
+.wrapper_row-x-center-y-center
+
+	display: flex
+	flex-direction: row
+	justify-content: center
+	align-items: center
+
+
+
+//   ЭЛЕМЕНТЫ ВНУТРИ РАСТЯГИВАЮТСЯ НА ВСЮ ШИРИНУ БЛОКА
+
+
+
+
+				//  ОТСТУПЫ
+
+
+.wrapper_mt-5
+
+	margin-top: 5px
+
+
+.wrapper_mt-10
+
+  	margin-top: 10px
+
+
+.wrapper_mt-20
+
+  	margin-top: 20px
+
+
+.wrapper_mt-30
+
+  	margin-top: 30px
+
+
+.wrapper_mt-45
+
+  	margin-top: 45px
+
+
+.wrapper_mt-50
+
+  	margin-top: 50px
+
+
+
+
+.wrapper_mb-20
+
+	margin-bottom: 20px
+
+.wrapper_mb-16
+
+	margin-bottom: 16px
+
+
+
+
+.wrapper_ml-main
+
+  	margin-left: $margin-left-main
+
+.wrapper_ml-16
+
+	margin-left: 16px
+
+.wrapper_ml-20
+
+	margin-left: 20px
+
+
+
+
+.wrapper_mr-16
+
+	margin-right: 16px
+
+.wrapper_mr-20
+
+	margin-right: 20px
+
+
+
+
+				//  ПОЗИЦИОНИРОВАНИЕ ОТДЕЛЬНЫХ ОБЕРТОК
+
+
+.wrapper_width-70prc
+
+	width: 70%
+	//background-color: $green-255-230
+
+
+.wrapper_width-30prc
+
+	width: 30%
+	//background-color: $green-255-230
+
+
+.wrapper_min-width-550px
+
+	min-width: 550px
+	//background-color: $blue-153t
+
+
+
+				//  ВИДИМОСТЬ ЭЛЕМЕНТОВ
+
+
+//   Полностью удаляет элемент из DOM
+
+.hidden-block
+
+	display: none!important
+
+
+
+
+				//  ОТДЕЛЬНЫЕ БЛОКИ
+
+
+.message
+
+	color: $red-200
+
+	font-family: $font-family-main
+	font-weight: 400
+	font-size: 16px
+
+
+
+
+				//         ---   ТЕСТОВЫЕ ЭЛЕМЕНТЫ   ---         //
+
+
+
+.test-square_100px-pink
+
+	width: 100px
+	height: 100px
+
+	margin-top: 5px
+
+	background-color: $red-255-200
+
+	border: 1px solid #f11417
+
+.test-square_20px-pink
+
+	width: 20px
+	height: 20px
+
+	margin-top: 5px
+
+	background-color: $red-255-200
+
+	border: 1px solid #f11417
+
+
+.border-visible
+
+	border: 1px solid #f11417
+
+
+.testblock_55_55
+
+	width: 55px
+	height: 55px
+
+
+
+//         ---   КОРРЕКЦИЯ BOOTSTRAP   ---         //
+
+
+.container
+
+	margin-left: 0 !important
+	margin-right: 0 !important
+
+
+.container-fluid
+
+	margin-left: 0 !important
+	margin-right: 0 !important
+
+	padding: 0 !important
+
+
+.row
+
+	//margin-left: 0 !important
+	//margin-right: 0 !important
+
+	margin: 0 !important
+	padding: 0 !important
+
+
+

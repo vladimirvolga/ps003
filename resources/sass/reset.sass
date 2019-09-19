@@ -1,0 +1,55 @@
+
+/*      ФОРМАТИРУЕМ КНОПКУ      */
+
+
+button:active 							/* Убираем обводку у кнопки */
+
+	outline: none !important
+
+
+button:focus 							/* Убираем обводку у кнопки */
+
+	outline: none !important
+
+
+
+/*       ФОРМАТИРУЕМ ИНПУТ       */
+
+
+input:focus 							/* Убираем обводку у инпута */
+
+	outline-style: none
+	outline-width: 0 !important
+//outline-color: none !important
+
+
+input
+
+	color: rgb(140,140,140) 			/* Цвет подсказывающего текста */
+	opacity: 1
+	transition: opacity 0.3s ease
+	font-family: 'Open Sans', sans-serif
+
+
+input:-webkit-autofill
+	background-color: rgb(255,255,255)
+
+
+input::placeholder
+
+	color: #a5a5a5 !important 			/* Цвет подсказывающего текста */
+	opacity: 1
+	transition: opacity 0.3s ease
+	font-family: "Roboto", sans-serif
+	font-weight: 300
+
+
+input:focus::placeholder
+
+	opacity: 0
+	transition: opacity 0.3s ease
+
+
+
+
+

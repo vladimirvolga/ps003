@@ -1,0 +1,213 @@
+$font-path-url-roboto: "../fonts/Roboto/";
+
+
+@font-face {
+
+  font-family: 'Roboto';
+  src:
+      url("#{$font-path-url-roboto}Robotothin.woff2") format('woff2'),
+      url("#{$font-path-url-roboto}Robotothin.woff") format('woff'),
+      url("#{$font-path-url-roboto}Robotothin.ttf") format('truetype');
+
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+
+@font-face {
+
+  font-family: 'Roboto';
+  src:
+      url("#{$font-path-url-roboto}Robotolight.woff2") format('woff2'),
+      url("#{$font-path-url-roboto}Robotolight.woff") format('woff'),
+      url("#{$font-path-url-roboto}Robotolight.ttf") format('truetype');
+
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+
+@font-face {
+
+  font-family: 'Roboto';
+  src:
+      url("#{$font-path-url-roboto}Roboto.woff2") format('woff2'),
+      url("#{$font-path-url-roboto}Roboto.woff") format('woff'),
+      url("#{$font-path-url-roboto}Roboto.ttf") format('truetype');
+
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+@font-face {
+
+  font-family: 'Roboto';
+  src:
+      url("#{$font-path-url-roboto}Robotomedium.woff2") format('woff2'),
+      url("#{$font-path-url-roboto}Robotomedium.woff") format('woff'),
+      url("#{$font-path-url-roboto}Robotomedium.ttf") format('truetype');
+
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+@font-face {
+
+  font-family: 'Roboto';
+  src:
+      url("#{$font-path-url-roboto}Robotobold.woff2") format('woff2'),
+      url("#{$font-path-url-roboto}Robotobold.woff") format('woff'),
+      url("#{$font-path-url-roboto}Robotobold.ttf") format('truetype');
+
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+@font-face {
+
+  font-family: 'Roboto';
+  src:
+      url("#{$font-path-url-roboto}Robotoblack.woff2") format('woff2'),
+      url("#{$font-path-url-roboto}Robotoblack.woff") format('woff'),
+      url("#{$font-path-url-roboto}Robotoblack.ttf") format('truetype');
+
+  font-weight: 900;
+  font-style: normal;
+
+}
+
+
+
+
+
+
+$font-path-url-lato: "../fonts/Lato/";
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latohairline.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latohairline.woff") format('woff'),
+      url("#{$font-path-url-lato}latohairline.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 100;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latothin.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latothin.woff") format('woff'),
+      url("#{$font-path-url-lato}latothin.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 200;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latolight.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latolight.woff") format('woff'),
+      url("#{$font-path-url-lato}latolight.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 300;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latoregular.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latoregular.woff") format('woff'),
+      url("#{$font-path-url-lato}latoregular.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latomedium.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latomedium.woff") format('woff'),
+      url("#{$font-path-url-lato}latomedium.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+          url("#{$font-path-url-lato}latosemibold.woff2") format('woff2'),
+          url("#{$font-path-url-lato}latosemibold.woff") format('woff'),
+          url("#{$font-path-url-lato}latosemibold.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 600;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latobold.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latobold.woff") format('woff'),
+      url("#{$font-path-url-lato}latobold.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+
+@font-face {
+
+  font-family: 'Lato';
+  src:
+      url("#{$font-path-url-lato}latoblack.woff2") format('woff2'),
+      url("#{$font-path-url-lato}latoblack.woff") format('woff'),
+      url("#{$font-path-url-lato}latoblack.ttf") format('truetype');
+
+  font-style: normal;
+  font-weight: 900;
+
+}
+
+
+
+
+
+
+
+
+
