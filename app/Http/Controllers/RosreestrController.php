@@ -11,37 +11,15 @@ class RosreestrController extends Controller
 {
     public function testRequest(Request $request) {
 
-//        73:19:72101:44
-//        $baseEgrnUrlString = 'http://rosreestr.ru/api/online/fir_objects/73:19:072101:44';
+//        73:19:072101:44
 //        $baseEgrnUrlString = 'http://rosreestr.ru/api/online/fir_objects/';
-        $baseEgrnUrlString = 'http://rosreestr.ru/api/online/fir_object/';
-
-
-
-        
 
         $searchData = $request->get('searchData');
-
-
-//            echo $searchData.PHP_EOL;
-
+        $baseEgrnUrlString = 'http://rosreestr.ru/api/online/fir_object/';
         $fullEgrnUrlString = $baseEgrnUrlString.$searchData;
-//        $fullEgrnUrlString = $baseEgrnUrlString;
-
-
-
-//        $fullEgrnUrlString = $searchData;
-
-//        return $fullEgrnUrlString;
-//            echo $fullEgrnUrlString.PHP_EOL;
-
-
-
-
-
-
 
         $client = new Client();
+
 //        $client = new Client(
 //            ['headers' =>
 ////                ['Referer' => 'http://gis-lab.info/forum'],
@@ -62,19 +40,9 @@ class RosreestrController extends Controller
 
         $responseStatusCode = $request->getStatusCode();
 
-//            echo 'responseStatusCode   '.$responseStatusCode.PHP_EOL;
-
-//        $responseBody = $request->getBody();
-
-//            echo $responseBody.PHP_EOL;
-
-
-
         if ($responseStatusCode == 200) {
 
             $responseBody = $request->getBody();
-
-//            echo $responseBody;
 
             $responseBodyObject = json_decode($responseBody, true);
 
