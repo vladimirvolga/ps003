@@ -226,7 +226,7 @@ const actions = {
             .then(resp => {
 
                 let rd = resp.data
-                // console.log(rd)
+                console.log(rd)
 
             })
             .catch(error => console.log(error))

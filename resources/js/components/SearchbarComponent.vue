@@ -13,8 +13,8 @@
             <!--   блок обертка для svg иконки поиска   -->
 
 
-            <!--<div class="searchbar__logo" @click = "testRequest2">-->
-            <div class="searchbar__logo" @click = "checkSimbols">
+            <div class="searchbar__logo" @click = "testRequest2">
+            <!--<div class="searchbar__logo" @click = "checkSimbols">-->
 
                 <icon-base width="14" height="14" icon-name="search">
                     <icon-search />

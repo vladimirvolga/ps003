@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Client;
+use library\RosreestrJsonParse;
 
 
 class RosreestrController extends Controller
@@ -43,14 +44,15 @@ class RosreestrController extends Controller
         if ($responseStatusCode == 200) {
 
             $responseBody = $request->getBody();
-
             $responseBodyObject = json_decode($responseBody, true);
 
-            $cadastralNumber = $responseBodyObject['objectData']['objectCn'];
-            $address = $responseBodyObject['objectData']['addressNote'];
-            $objectName = $responseBodyObject['objectData']['objectName'];
-            $areaValue = $responseBodyObject['parcelData']['areaValue'];
-            $areaUnit = 'кв.м.';
+            $rosreestrJsonParse = new RosreestrJsonParse;
+
+            $cadastralNumber = $rosreestrJsonParse -> getCadastralNumber($responseBodyObject);
+            $address = $rosreestrJsonParse -> getAdress($responseBodyObject);
+            $objectName = $rosreestrJsonParse -> getObjectName($responseBodyObject);
+            $areaValue = $rosreestrJsonParse -> getAriaValue($responseBodyObject);
+            $areaUnit = $rosreestrJsonParse -> getAriaUnit($responseBodyObject);
 
             $informationItems = [];
             $object = [];
