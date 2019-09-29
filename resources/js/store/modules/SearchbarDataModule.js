@@ -170,7 +170,7 @@ const actions = {
 
     requestObjectData({ commit }) {
 
-        let searchData={}
+        let searchData = ''
 
         if (state.requestedObjectId !== '') {
 
@@ -180,18 +180,27 @@ const actions = {
 
         }
 
-        axios({ url: '/api/getobjectdata', data: searchData, method: 'POST' })
+            console.log('searchData   ' + searchData)
 
-            .then(resp => {
+        if (state.requestedObjectId !== '') {
 
-                let od = resp.data
+            axios({ url: '/api/getobjectdata', data: searchData, method: 'POST' })
 
-                commit('SET_OBJECT_DATA_ROWS', od)
-                commit('CLEAN_REQUESTED_OBJECT_ID')
+                .then(resp => {
 
-            }
-        )
-            .catch(error => console.log(error))
+                        let od = resp.data
+
+                        commit('SET_OBJECT_DATA_ROWS', od)
+                        commit('CLEAN_REQUESTED_OBJECT_ID')
+
+                    }
+                )
+
+                .catch(error => console.log(error))
+
+        }
+
+
 
     },
 

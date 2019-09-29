@@ -29,62 +29,62 @@
                     <!--   КАРТОЧКА. РАЗМЕРА ЭКРАНА ОТ SM   -->
 
 
-            <div class="object-card">
+            <!--<div class="object-card">-->
 
 
 
-                <div class=" object-card__info-block
-                            wrapper_ml-16
-                            wrapper_mr-16">
+                <!--<div class=" object-card__info-block-->
+                            <!--wrapper_ml-16-->
+                            <!--wrapper_mr-16">-->
 
 
-                    <div class="description-item__value_cad-number">
-                        73:19:071501:37</div>
+                    <!--<div class="description-item__value_cad-number">-->
+                        <!--73:19:071501:37</div>-->
 
 
-                    <div class="description-item__value_address">
-                        Ульяновская обл., г. Ульяновск, р-н Засвияжский, д. Погребы,
-                        ул. Мира, на земельном участке расположен дом 34
-                    </div>
+                    <!--<div class="description-item__value_address">-->
+                        <!--Ульяновская обл., г. Ульяновск, р-н Засвияжский, д. Погребы,-->
+                        <!--ул. Мира, на земельном участке расположен дом 34-->
+                    <!--</div>-->
 
 
-                    <div class="wrapper_row-x-left wrapper_mt-5">
+                    <!--<div class="wrapper_row-x-left wrapper_mt-5">-->
 
-                        <div class="description-item__value_obj-type">Помещение.</div>
+                        <!--<div class="description-item__value_obj-type">Помещение.</div>-->
 
-                        <div class="description-item__value_area">38,9</div>
+                        <!--<div class="description-item__value_area">38,9</div>-->
 
-                        <div class="description-item__value_area-unit">кв.м.</div>
+                        <!--<div class="description-item__value_area-unit">кв.м.</div>-->
 
-                    </div>
-
-
-                </div>
+                    <!--</div>-->
 
 
-                <div class="additional-block wrapper_row-x-left">
+                <!--</div>-->
 
 
-                        <!--   БЛОК ЗАГРУЗКИ ФАЙЛОВ   -->
+                <!--&lt;!&ndash;<div class="additional-block wrapper_row-x-left">&ndash;&gt;-->
 
 
-                    <file-section-component></file-section-component>
+                        <!--&lt;!&ndash;&lt;!&ndash;   БЛОК ЗАГРУЗКИ ФАЙЛОВ   &ndash;&gt;&ndash;&gt;-->
 
 
-                        <!--   БЛОК ЛОГОВ   -->
+                    <!--&lt;!&ndash;<file-section-component></file-section-component>&ndash;&gt;-->
 
 
-                    <log-section-component></log-section-component>
+                        <!--&lt;!&ndash;&lt;!&ndash;   БЛОК ЛОГОВ   &ndash;&gt;&ndash;&gt;-->
 
 
-
-                </div>
+                    <!--&lt;!&ndash;<log-section-component></log-section-component>&ndash;&gt;-->
 
 
 
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
 
-            </div>
+
+
+
+            <!--</div>-->
 
 
 
@@ -145,23 +145,23 @@
                     </div>
 
 
-                    <div class="additional-block wrapper_row-x-left">
+                    <!--<div class="additional-block wrapper_row-x-left">-->
 
 
-                        <!--   БЛОК ЗАГРУЗКИ ФАЙЛОВ   -->
+                        <!--&lt;!&ndash;   БЛОК ЗАГРУЗКИ ФАЙЛОВ   &ndash;&gt;-->
 
 
-                        <file-section-component></file-section-component>
+                        <!--<file-section-component></file-section-component>-->
 
 
-                        <!--   БЛОК ЛОГОВ   -->
+                        <!--&lt;!&ndash;   БЛОК ЛОГОВ   &ndash;&gt;-->
 
 
-                        <log-section-component></log-section-component>
+                        <!--<log-section-component></log-section-component>-->
 
 
 
-                    </div>
+                    <!--</div>-->
 
 
 
