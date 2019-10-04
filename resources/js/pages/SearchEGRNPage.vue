@@ -2,7 +2,6 @@
 
 
 
-    <!--<div class="wrapper_center-top">-->
     <div class="wrap_x-center-y-top">
 
 

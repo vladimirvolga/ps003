@@ -1,22 +1,9 @@
 
-
 <template>
 
 
 
 
-    <!-----------------------------------------------------------------
-     *
-     *   Это шаблон нового компонента. Не забыть в экспорте указать
-     *   наименование компонента, который будет из этого шаблона.
-     *
-     ------------------------------------------------------------------>
-
-
-
-
-
-    <!--<div class="object-card-container wrapper_row-x-center ">-->
 
     <div class="object-card-container wrapper_column-x-center-y-top ">
 
@@ -91,6 +78,50 @@
         </div>
 
 
+        <div class="object-card-section ">
+
+            <div class="object-card">
+
+                <div class=" object-card__info-block
+                                    wrapper_ml-16
+                                    wrapper_mr-16">
+
+
+                    <div class="description-item__value_cad-number">
+                        73:24:456765:2343</div>
+
+
+                    <div class="description-item__value_address">
+                        Г. Ульяновск, ул. Отрадная , д.56
+                    </div>
+
+
+                    <div class="wrapper_row-x-left wrapper_mt-5">
+
+
+                        <div class="description-item__value_obj-type">
+                            Земельный участок
+                        </div>
+
+                        <div class="description-item__value_area">
+                            456
+                        </div>
+
+                        <div class="description-item__value_area-unit">
+                            кв. м.
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
 
 
 
@@ -102,7 +133,7 @@
 
 
 
-                <!--   КАРТОЧКА. РАЗМЕРА ЭКРАНА ОТ SM   -->
+                    <!--   КАРТОЧКА. РАЗМЕРА ЭКРАНА ОТ SM   -->
 
 
                 <div class="object-card">
@@ -276,7 +307,6 @@
     .object-card-container
 
         width: 100%
-        /*height: 120px*/
 
 
     .object-card-section

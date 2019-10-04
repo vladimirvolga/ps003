@@ -10,6 +10,12 @@
 
         <sidebar-component></sidebar-component>
 
+        <searchbar-component></searchbar-component>
+
+        <search-result-component></search-result-component>
+
+        <button-up-component></button-up-component>
+
 
     </div>
 

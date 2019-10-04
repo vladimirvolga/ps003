@@ -32,23 +32,34 @@ class RosreestrController extends Controller
 //            ]);
 
         try {
-            $request = $client->request('GET', $fullEgrnUrlString);
+            $res = $client->request('GET', $fullEgrnUrlString);
         }
 
         catch (GuzzleException $e) {
             echo "AGH!". $e->getMessage();
         }
 
-        $responseStatusCode = $request->getStatusCode();
+        $responseStatusCode = $res->getStatusCode();
+
+            //TODO
+//            echo $responseStatusCode.PHP_EOL;
 
         if ($responseStatusCode == 200) {
 
-            $responseBody = $request->getBody();
+            $responseBody = $res->getBody();
+
+                //TODO
+//                echo $responseBody.PHP_EOL;
+
             $responseBodyObject = json_decode($responseBody, true);
 
             $rosreestrJsonParse = new RosreestrJsonParse;
 
             $cadastralNumber = $rosreestrJsonParse -> getCadastralNumber($responseBodyObject);
+
+            //todo
+//                echo $cadastralNumber.PHP_EOL;
+
             $address = $rosreestrJsonParse -> getAdress($responseBodyObject);
             $objectName = $rosreestrJsonParse -> getObjectName($responseBodyObject);
             $areaValue = $rosreestrJsonParse -> getAriaValue($responseBodyObject);

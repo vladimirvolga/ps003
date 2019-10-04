@@ -84,17 +84,17 @@
         data() {
 
             return {
-
                 inputValue: ''
-
             }
         },
 
 
         components: {
+
             IconBase,
             IconSearch,
             IconCross
+
         },
 
 

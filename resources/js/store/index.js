@@ -20,9 +20,11 @@ import pagehandlemodule from './modules/pagehandlemodule'
 import buttonupmodule from './modules/buttonupmodule'
 import sidebarmodule from './modules/sidebarmodule'
 import pageAddressHandlerModule from './modules/pageAddressHandlerModule'
-import searchbarHandlerModule from './modules/searchbarHandlerModule'
-import SearchbarDataModule from './modules/SearchbarDataModule'
 import objectCardModule from './modules/objectCardModule'
+import searchbarModule from './modules/searchbar.module'
+import searchbarEgrnModule from './modules/searchbar.egrn.module'
+import searchbarPeopleModule from './modules/searchbar.people.module'
+
 
 
         //  Создаем store
@@ -40,9 +42,10 @@ const store = new Vuex.Store ({
         buttonupmodule,
         sidebarmodule,
         pageAddressHandlerModule,
-        searchbarHandlerModule,
         objectCardModule,
-        SearchbarDataModule
+        searchbarModule,
+        searchbarEgrnModule,
+        searchbarPeopleModule,
 
     }
 
