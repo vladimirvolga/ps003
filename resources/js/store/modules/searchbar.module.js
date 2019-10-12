@@ -71,7 +71,6 @@ const actions = {
 
     SET_INPUT_VALUE ({ commit }, iv) {
         commit('SET_INPUT_VALUE', iv)
-        console.log('inputValue = ' + state.inputValue)
     },
 
     CLEAN_INPUT_VALUE ({ commit }) {
@@ -117,9 +116,6 @@ const actions = {
         element.value = ''
         store.dispatch('CLEAN_INPUT_VALUE')
 
-            //todo
-            // console.log("state.inputValue   "+ state.inputValue)
-            // store.dispatch('testPrint')
 
     },
 
@@ -132,17 +128,9 @@ const actions = {
 
             dispatch('onSubmitEgrn')
 
-                //todo
-                // console.log('pageCode   ' + pageCode)
-                // console.log('сработал онсабмит ЕГРН')
-
         } else if (pageCode === 2) {
 
             dispatch('onSubmitPeople')
-
-                //todo
-                // console.log('pageCode   ' + pageCode)
-                // console.log('сработал онсабмит ЛЮДИ')
 
         }
 

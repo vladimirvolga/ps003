@@ -135,8 +135,6 @@ const actions = {
 
     checkSimbols ({ commit }) {
 
-        // let cadNumber = '073:024:0000000:0667'
-        // let cadNumber = '73:19:000000:127'
         let cadNumber = state.requestedCadNumber
         let cadNumberArr = cadNumber.split(':')
 
@@ -180,8 +178,6 @@ const actions = {
 
         }
 
-            //TODO
-            // console.log('searchData   ' + searchData)
 
         if (state.requestedObjectId !== '') {
 
@@ -191,14 +187,10 @@ const actions = {
 
                         let od = resp.data
 
-                    //todo
-                    console.log('resp.data   ' + od)
 
                         commit('SET_OBJECT_DATA_ROWS', od)
                         commit('CLEAN_REQUESTED_OBJECT_ID')
 
-                        //TODO
-                        console.log('nnnn   state.objectDataRows   ' + state.objectDataRows)
 
                     }
                 )
@@ -214,11 +206,10 @@ const actions = {
 
     onSubmitEgrn({ dispatch }) {
 
-            console.log('сработал другой онсабмит')
-
         dispatch('checkInputValue')
         dispatch('checkSimbols')
         dispatch('requestObjectData')
+
     },
 
 
@@ -250,7 +241,6 @@ const actions = {
             })
             .catch(error => console.log(error))
 
-    //  тест изменений 3
 
 
 

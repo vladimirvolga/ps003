@@ -30,42 +30,6 @@
 
 
 
-                <div class="item  wrapper_mt-10">
-
-                    <div class="item_info-block">
-
-
-                        <div class="item__title">
-                            Иванов Андрей Констанинович </div>
-
-
-                            <div class="wrapper_mt-5">
-
-                                <div class="item-info wrapper_row-left">
-
-                                    <div class="item-info__label wrapper_mr-16">Год рождения:</div>
-                                    <div class="item-info__value">05.03.1968</div>
-
-                                </div>
-
-
-                                <div class="item-info wrapper_row-left">
-
-                                    <div class="item-info__label wrapper_mr-16">Адрес:</div>
-                                    <div class="item-info__value">
-                                        г. Ульяновск, ул. станкостроителей, д. 10, кв. 16</div>
-
-                                </div>
-
-                            </div>
-
-                    </div>
-
-                </div>
-
-
-
-
 
                 <template v-for="dataRow in dataRows">
 
@@ -340,9 +304,6 @@
 
     .item
 
-        /*flex-direction: row*/
-        /*align-content: stretch*/
-
         margin-left: 32px
         margin-right: 32px
 
@@ -362,10 +323,6 @@
 
         width: 100%
 
-        /*border: 0.5px solid #d0211c*/
-
-        /*cursor: pointer*/
-
 
     .item__title
 
@@ -384,7 +341,6 @@
 
     .item-info
 
-        /*flex-wrap: wrap*/
         display: block
         width: 100%
 
@@ -392,7 +348,6 @@
 
         line-height: 1.2
 
-        /*align-items: flex-end*/
 
 
     .item-info__label

@@ -104,19 +104,8 @@ const actions = {
         let inputValue = getters.GET_INPUT_VALUE
         let searchQuery = getters.GET_INPUT_VALUE
 
-            console.log ('сработал экшн onSubmitPeople')
-            console.log ('state.inputValue   ' + inputValue)
-
         dispatch('setVariablesRequestFirst', searchQuery)
-
-            console.log('state.searchQuery   ' + state.searchQuery)
-            console.log('state.totalRowsCount   ' + state.rowsToShow)
-            console.log('state.firstRow   ' + state.firstRow)
-
         dispatch('request')
-
-            console.log('state.totalRowsCount после выполнения запросва   ' + state.totalRowsCount)
-
 
     },
 

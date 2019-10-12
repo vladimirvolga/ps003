@@ -9,39 +9,40 @@
 
 
 
-        <div class="object-card-section ">
 
-
-
-                    <!--   КАРТОЧКА. РАЗМЕРА ЭКРАНА ОТ SM   -->
-
+        <!--<div class="object-card-section ">-->
 
             <!--<div class="object-card">-->
 
-
-
                 <!--<div class=" object-card__info-block-->
-                            <!--wrapper_ml-16-->
-                            <!--wrapper_mr-16">-->
+                                    <!--wrapper_ml-16-->
+                                    <!--wrapper_mr-16">-->
 
 
                     <!--<div class="description-item__value_cad-number">-->
-                        <!--73:19:071501:37</div>-->
+                        <!--73:24:456765:2343</div>-->
 
 
                     <!--<div class="description-item__value_address">-->
-                        <!--Ульяновская обл., г. Ульяновск, р-н Засвияжский, д. Погребы,-->
-                        <!--ул. Мира, на земельном участке расположен дом 34-->
+                        <!--Г. Ульяновск, ул. Отрадная , д.56-->
                     <!--</div>-->
 
 
                     <!--<div class="wrapper_row-x-left wrapper_mt-5">-->
 
-                        <!--<div class="description-item__value_obj-type">Помещение.</div>-->
 
-                        <!--<div class="description-item__value_area">38,9</div>-->
+                        <!--<div class="description-item__value_obj-type">-->
+                            <!--Земельный участок-->
+                        <!--</div>-->
 
-                        <!--<div class="description-item__value_area-unit">кв.м.</div>-->
+                        <!--<div class="description-item__value_area">-->
+                            <!--456-->
+                        <!--</div>-->
+
+                        <!--<div class="description-item__value_area-unit">-->
+                            <!--кв. м.-->
+                        <!--</div>-->
+
 
                     <!--</div>-->
 
@@ -49,79 +50,10 @@
                 <!--</div>-->
 
 
-                <!--&lt;!&ndash;<div class="additional-block wrapper_row-x-left">&ndash;&gt;-->
-
-
-                        <!--&lt;!&ndash;&lt;!&ndash;   БЛОК ЗАГРУЗКИ ФАЙЛОВ   &ndash;&gt;&ndash;&gt;-->
-
-
-                    <!--&lt;!&ndash;<file-section-component></file-section-component>&ndash;&gt;-->
-
-
-                        <!--&lt;!&ndash;&lt;!&ndash;   БЛОК ЛОГОВ   &ndash;&gt;&ndash;&gt;-->
-
-
-                    <!--&lt;!&ndash;<log-section-component></log-section-component>&ndash;&gt;-->
-
-
-
-                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-
-
-
 
             <!--</div>-->
 
-
-
-        </div>
-
-
-        <div class="object-card-section ">
-
-            <div class="object-card">
-
-                <div class=" object-card__info-block
-                                    wrapper_ml-16
-                                    wrapper_mr-16">
-
-
-                    <div class="description-item__value_cad-number">
-                        73:24:456765:2343</div>
-
-
-                    <div class="description-item__value_address">
-                        Г. Ульяновск, ул. Отрадная , д.56
-                    </div>
-
-
-                    <div class="wrapper_row-x-left wrapper_mt-5">
-
-
-                        <div class="description-item__value_obj-type">
-                            Земельный участок
-                        </div>
-
-                        <div class="description-item__value_area">
-                            456
-                        </div>
-
-                        <div class="description-item__value_area-unit">
-                            кв. м.
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
-
-
-            </div>
-
-        </div>
+        <!--</div>-->
 
 
 
@@ -175,6 +107,8 @@
 
                     </div>
 
+
+                    <!--         НЕ УДАЛЯТЬ!!!!         -->
 
                     <!--<div class="additional-block wrapper_row-x-left">-->
 
@@ -296,11 +230,9 @@
 
 
 
-
     @import '../../sass/reset'
     @import '../../sass/vars'
     @import '../../sass/main'
-
 
 
 
@@ -329,8 +261,6 @@
 
         border: 1px solid #dedede
         border-radius: 6px
-
-        /*cursor: pointer*/
 
 
     @media (max-width: 576px)
@@ -450,13 +380,6 @@
         .additional-block
 
             flex-direction: column
-
-
-
-
-
-
-
 
 
     .test-square_100px-pink

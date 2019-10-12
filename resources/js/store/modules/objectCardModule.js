@@ -70,23 +70,6 @@ const actions = {
     //
     // },
 
-    // showOrderSection() {
-    //
-    //     let el = document.getElementsByClassName("order-section")
-    //     // console.log(el)
-    //     el[0].classList.remove("hidden-block")
-    //
-    // },
-    //
-    //
-    // hideOrderSection() {
-    //
-    //     let el = document.getElementsByClassName("sidebar")
-    //     // console.log(el)
-    //     el[0].classList.add("hidden-block")
-    //
-    // },
-
 
 
     /**         ...   СЕКЦИЯ ЗАКАЗА ДОКУМЕНТОВ   ...            */
@@ -102,13 +85,12 @@ const actions = {
             document
                 .getElementsByClassName('object-card__info-block')[ie]
                 .onclick = function () {
-                console.log('index of element   ' + ie)
+
+                    // console.log('index of element   ' + ie)
 
                 document.getElementsByClassName('modal_order-section')[0]
                     .classList.remove('hidden-block')
 
-                // let os = document.getElementsByClassName('order-section').length
-                // console.log(os);
             }
         }
 
@@ -121,9 +103,6 @@ const actions = {
         document.getElementsByClassName('modal_order-section')[0]
             .classList.add('hidden-block')
 
-        // console.log(el)
-        // el[0].classList.add("hidden-block")
-
     },
 
 
@@ -133,7 +112,9 @@ const actions = {
 
             let targetSection = e.target.classList
             if (targetSection.contains ('modal_order-section')) {
-                console.log('target section  ' + targetSection )
+
+                    // console.log('target section  ' + targetSection )
+                
                 document.getElementsByClassName('modal_order-section')[0]
                     .classList.add('hidden-block')
             }

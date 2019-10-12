@@ -123,10 +123,6 @@ Vue.use(Vuex)
 
                 commit('auth_request')
 
-                    // console.log('после commit(auth_request)' + state.status)
-                    // console.log('после commit(auth_request)' + state.token)
-                    // console.log('после commit(auth_request)' + state.user)
-
                 axios({ url: '/api/user/register', data: regdata, method: 'POST' })
 
                     .then(resp => {
@@ -142,9 +138,6 @@ Vue.use(Vuex)
                         commit('auth_success_set_token', token)
                         commit('auth_success_set_user', user)
 
-                            // console.log('status после commit(auth_success)' + state.status)
-                            // console.log('token после commit(auth_success)' + state.token)
-                            // console.log('user после commit(auth_success)' + state.user)
 
                         resolve(resp)
                     })

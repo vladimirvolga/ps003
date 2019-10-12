@@ -95,21 +95,24 @@ const actions = {
     setPageCodeEGRN({ commit }) {
 
         commit('SET_PAGECODE_EGRN')
-            console.log("Код страницы:   " + state.pageCode)
+
+            // console.log("Код страницы:   " + state.pageCode)
 
     },
 
     setPageCodeMyDocuments({ commit }) {
 
         commit('SET_PAGECODE_MYDOCUMENTS')
-            console.log("Код страницы:   " + state.pageCode)
+
+            // console.log("Код страницы:   " + state.pageCode)
 
     },
 
     setPageCodePeople({ commit }) {
 
         commit('SET_PAGECODE_PEOPLE')
-            console.log("Код страницы:   " + state.pageCode)
+
+            // console.log("Код страницы:   " + state.pageCode)
 
     },
 

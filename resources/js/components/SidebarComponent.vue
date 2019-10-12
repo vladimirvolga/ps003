@@ -17,8 +17,6 @@
 
             <div class="logo wrapper_row-x-left-y-center"  @click = 'hideSidebar'>
 
-                <!--<div class="test-square_20px-pink"></div>-->
-
                 <icon-base width="19" height="19" icon-name="close">
                     <icon-close />
                 </icon-base>

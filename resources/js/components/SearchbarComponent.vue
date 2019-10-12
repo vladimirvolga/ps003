@@ -10,11 +10,9 @@
               @submit.prevent = 'onSubmit'>
 
 
-            <!--   блок обертка для svg иконки поиска   -->
-
+                <!--   блок обертка для svg иконки поиска   -->
 
             <div class="searchbar__logo" @click = "testRequest2">
-            <!--<div class="searchbar__logo" @click = "checkSimbols">-->
 
                 <icon-base width="14" height="14" icon-name="search">
                     <icon-search />
@@ -145,15 +143,6 @@
         },
 
 
-
-
-
-        // watch: {
-        //     inputValue(val) {
-        //         console.log('watch   ' + val);
-        //     },
-        // },
-
     }
 
 
@@ -178,12 +167,6 @@
     .searchbar-container
 
         width: 100%
-
-        /*display: flex*/
-        /*flex-direction: row*/
-        /*justify-content: center*/
-        /*flex-direction: column*/
-
 
 
     .t001
@@ -210,10 +193,6 @@
 
         background-color: #fff
 
-        /*display: flex*/
-        /*justify-content: center*/
-        /*align-items: center*/
-
 
     .searchbar__logo
 
@@ -238,7 +217,6 @@
 
     .searchbar__btn-clean-input
 
-        /*width: 48px*/
         width: 100%
         height: 100%
 
@@ -251,8 +229,6 @@
 
         flex: auto
         height: 100%
-
-        /*padding-right: 24px*/
 
         border: 0
 
@@ -267,13 +243,6 @@
         display: flex
 
         text-overflow: ellipsis
-
-
-
-
-
-
-
 
 
 
